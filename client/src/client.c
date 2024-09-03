@@ -41,8 +41,8 @@ int main(void)
 
 
 	valor = config_get_string_value(config ,"CLAVE");
-	puerto = config_get_string_value (config, "IP");
-	ip = config_get_string_value (config, "PUERTO");
+	ip = config_get_string_value (config, "IP");
+	puerto = config_get_string_value (config, "PUERTO");
 
 	// Loggeamos el valor de config
 	log_info(logger,"El valor de la clave como string es: %s", valor);
